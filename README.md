@@ -1,17 +1,24 @@
 # Ovation green
 
-This documentation is designed to provide basic guidence on how to setup the Ovation Green source repository ([scada-pc](https://github.com/ovationgreen/scada-pc)) on your local machine.
+This documentation aims to provide step-by-step guidance on setting up the Ovation Green SCADA source repository ([scada-pc](https://github.com/ovationgreen/scada-pc)) on your local machine.
 
 ## Table of Contents
 
+- [Purpose](#purpose)
 - [Preconditions](#preconditions)
 - [Software](#software)
 
+## Purpose
+
+The purpose of this document is to provide guidance for setting up a new local repository and migrating from an old self-hosted repository to GitHub. Please note that the configuration of additional tools, such as IDEs, compilers, continuous integration systems, and others, is beyond the scope of this documentation. However, if needed, information on configuring these tools may be added at a later stage.
+
 ## Preconditions
 
-* You must be logged into Github using an Emmerson email address. If you are using another Github account, or don't have an accout yet, please create one with your Emmerson email address. After that contact [repository owner](mailto:Orest.Pankevych@Emmerson.com) to receive the appropriate permissions.
+* To proceed, please ensure that you are logged into GitHub using an Emerson email address. If you are using a different GitHub account or do not have one yet, kindly create an account using your Emerson email address. Once done, please reach out to the repository owner at [Orest.Pankevych@Emmerson.com](mailto:Orest.Pankevych@Emmerson.com) to obtain the necessary permissions.
 
 ## Software
+
+Please ensure that the additional software listed below is installed before proceeding with the next steps. After installation, it is necessary to restart all terminals (such as cmd, git-bash, Windows Terminal, etc.) and file managers (such as Total Commander, Far manager, etc.).
 
 * [GitHub Desktop](https://desktop.github.com)
 * [GitHub CLI](https://cli.github.com)
