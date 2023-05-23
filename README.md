@@ -53,10 +53,7 @@ gh repo clone ovationgreen/scada-pc PC
 ```
 After successfully cloning the repository, navigate to the `PC` folder and execute the following commands:
 ```
-git submodule init
-```
-```
-git submodule update
+git submodule update --init
 ```
 
 ## Contributing
