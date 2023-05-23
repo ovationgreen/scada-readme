@@ -38,10 +38,19 @@ While executing the command, you will be prompted with a series of questions. Pl
 
 Press `Enter` to continue, and in the web browser that opens, authorize your Git client by following the instructions. You can now proceed with cloning the GitHub repository.
 
+## Migration
+
+When migrating from an existing self-hosted repository to a GitHub repository, it is important to back up all the existing files within the repository folder. One approach is to rename the PC directory to preserve it on your hard drive. Afterward, you can copy the necessary files to the new repository folder. However, please note that this method does not account for git-specific objects like stashes, branches, commits, and tags. If you require migration of these elements, please reach out to the repository owner at [Orest.Pankevych@Emmerson.com](mailto:Orest.Pankevych@Emmerson.com) for a more detailed explanation of the migration process.
+
 ## Cloning
 
-When setting up the repository for the first time, run the following command in the terminal
+To set up the repository for the first time, open the terminal and navigate to the `P00518` folder. Then, execute the following command:
 
 ```
-gh repo clone ovationgreen/scada-pc
+gh repo clone ovationgreen/scada-pc PC
+```
+After successfully cloning the repository, navigate to the `PC` folder and execute the following commands:
+```
+git submodule init
+git submodule update
 ```
