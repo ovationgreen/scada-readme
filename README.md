@@ -51,7 +51,7 @@ To set up the repository for the first time, open the terminal and navigate to t
 ```
 gh repo clone ovationgreen/scada-pc PC
 ```
-After successfully cloning the repository, navigate to the `PC` folder and execute the following commands:
+After successfully cloning the repository, navigate to the `PC` folder and execute the following command:
 ```
 git submodule update --init
 ```
