@@ -34,7 +34,7 @@ While executing the command, you will be prompted with a series of questions. Pl
 1. What account do you want to log into? `Github.com`
 2. What is your preferred protocol for Git operations? `HTTPS`
 3. Authenticate Git with your GitHub credentials? `Yes`
-4. How would you like to authenticate GitHub CLI? `Login with a web browser`.
+4. How would you like to authenticate GitHub CLI? `Login with a web browser`
 
 Press `Enter` to continue, and in the web browser that opens, authorize your Git client by following the instructions. You can now proceed with cloning the GitHub repository.
 
@@ -52,5 +52,11 @@ gh repo clone ovationgreen/scada-pc PC
 After successfully cloning the repository, navigate to the `PC` folder and execute the following commands:
 ```
 git submodule init
+```
+```
 git submodule update
 ```
+
+## Conclusion
+
+Congratulations! You have successfully cloned the Ovation Green SCADA source repository. You can now proceed with your work inside this repository.
