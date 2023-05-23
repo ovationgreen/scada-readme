@@ -40,7 +40,7 @@ Press `Enter` to continue, and in the web browser that opens, authorize your Git
 
 ## Migration
 
-When migrating from an existing self-hosted repository to a GitHub repository, it is important to back up all the existing files within the repository folder. One approach is to rename the PC directory to preserve it on your hard drive. Afterward, you can copy the necessary files to the new repository folder. However, please note that this method does not account for git-specific objects like stashes, branches, commits, and tags. If you require migration of these elements, please reach out to the repository owner at [Orest.Pankevych@Emmerson.com](mailto:Orest.Pankevych@Emmerson.com) for a more detailed explanation of the migration process.
+When migrating from an existing self-hosted repository to a GitHub repository, it is important to back up all the existing files within the repository folder. One approach is to rename the PC directory to preserve it on your hard drive. Afterward, you can copy the necessary files to the new repository folder. However, please note that this method does not account for git-specific objects like stashes, branches, commits, and tags. If you require migration of these elements, please reach out to the repository owner for a more detailed explanation of the migration process.
 
 ## Cloning
 
@@ -56,6 +56,10 @@ git submodule init
 ```
 git submodule update
 ```
+
+## Contributing
+
+If you find that this documentation lacks important information or have suggestions for its improvement, please don't hesitate to contact the repository owner.
 
 ## Conclusion
 
