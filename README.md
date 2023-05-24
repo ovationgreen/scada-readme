@@ -8,7 +8,7 @@ The purpose of this document is to provide guidance for setting up a new local r
 
 ## Account
 
-To proceed, please ensure that you are logged into GitHub using an Emerson email address. If you are using a different GitHub account or do not have one yet, kindly create an account using your Emerson email address. Once you have completed this step, please send your email address to the repository owner at [Orest.Pankevych@Emmerson.com](mailto:Orest.Pankevych@Emmerson.com) to request the necessary permissions. After you are added to the Ovation Green organization, you will receive an email containing the appropriate invitation. Please click on the link in the email and accept the invitation.
+To proceed, please ensure that you are logged into GitHub using an Emerson email address. If you are using a different GitHub account or do not have one yet, kindly create an account using your Emerson email address. Once you have completed this step, please send your email address to the repository owner at [Orest.Pankevych@Emmerson.com](mailto:Orest.Pankevych@Emmerson.com) to request the necessary permissions. After you are added to the Ovation Green organization, you will receive an 2 emails containing the appropriate invitations. Please click on the link in the email and accept the invitation.
 
 ## Software
 
