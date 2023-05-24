@@ -8,13 +8,14 @@ The purpose of this document is to provide guidance for setting up a new local r
 
 ## Account
 
-To proceed, please ensure that you are logged into GitHub using an Emerson email address. If you are using a different GitHub account or do not have one yet, kindly create an account using your Emerson email address. Once you have completed this step, please contact the repository owner at [Orest.Pankevych@Emmerson.com](mailto:Orest.Pankevych@Emmerson.com) via email or Teams to request the necessary permissions. After you are added to the Ovation Green organization, you will receive an email containing the appropriate invitation. Please click on the link in the email and accept the invitation.
+To proceed, please ensure that you are logged into GitHub using an Emerson email address. If you are using a different GitHub account or do not have one yet, kindly create an account using your Emerson email address. Once you have completed this step, please send your email address to the repository owner at [Orest.Pankevych@Emmerson.com](mailto:Orest.Pankevych@Emmerson.com) to request the necessary permissions. After you are added to the Ovation Green organization, you will receive an email containing the appropriate invitation. Please click on the link in the email and accept the invitation.
 
 ## Software
 
 Please ensure that the additional software listed below is installed before proceeding with the next steps. After installation, it is necessary to restart all terminals (such as cmd, git-bash, Windows Terminal, etc.) and file managers (such as Total Commander, Far manager, etc.).
 
 * [Git](https://git-scm.com/downloads)
+* [Git Large File Storage](https://git-lfs.com)
 * [GitHub CLI](https://cli.github.com)
 * [GitHub Desktop](https://desktop.github.com)
 
@@ -48,6 +49,9 @@ When migrating from an existing self-hosted repository to a GitHub repository, i
 
 To set up the repository for the first time, open the terminal and navigate to the `P00518` folder. Then, execute the following command:
 
+```
+git lfs install
+```
 ```
 gh repo clone ovationgreen/scada-pc PC
 ```
