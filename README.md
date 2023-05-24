@@ -6,9 +6,9 @@ This documentation aims to provide step-by-step guidance on setting up the Ovati
 
 The purpose of this document is to provide guidance for setting up a new local repository and migrating from an old self-hosted repository to GitHub. Please note that the configuration of additional tools, such as IDEs, compilers, continuous integration systems, and others, is beyond the scope of this documentation. However, if needed, information on configuring these tools may be added at a later stage.
 
-## Preconditions
+## Account
 
-* To proceed, please ensure that you are logged into GitHub using an Emerson email address. If you are using a different GitHub account or do not have one yet, kindly create an account using your Emerson email address. Once done, please reach out to the repository owner at [Orest.Pankevych@Emmerson.com](mailto:Orest.Pankevych@Emmerson.com) to obtain the necessary permissions. After you are added to the Ovation Green organization, you will receive an email containing the appropriate invitation. Please click on the link in the email and accept the invitation.
+To proceed, please ensure that you are logged into GitHub using an Emerson email address. If you are using a different GitHub account or do not have one yet, kindly create an account using your Emerson email address. Once done, please reach out to the repository owner at [Orest.Pankevych@Emmerson.com](mailto:Orest.Pankevych@Emmerson.com) to obtain the necessary permissions. After you are added to the Ovation Green organization, you will receive an email containing the appropriate invitation. Please click on the link in the email and accept the invitation.
 
 ## Software
 
