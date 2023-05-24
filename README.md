@@ -45,13 +45,18 @@ To authenticate with `GitHub Desktop`, please follow the steps provided within t
 
 When migrating from an existing self-hosted repository to a GitHub repository, it is important to back up all the existing files within the repository folder. One approach is to rename the PC directory to preserve it on your hard drive. Afterward, you can copy the necessary files to the new repository folder. However, please note that this method does not account for git-specific objects like stashes, branches, commits, and tags. If you require migration of these elements, please reach out to the repository owner for a more detailed explanation of the migration process.
 
-## Cloning
+## Git LFS
 
-To set up the repository for the first time, open the terminal and navigate to the `P00518` folder. Then, execute the following command:
+To enable Git Large File Storage (LFS), execute the following command. Please note that you only need to run this command once per user account.
 
 ```
 git lfs install
 ```
+
+## Cloning
+
+To set up the repository for the first time, open the terminal and navigate to the `P00518` folder. Then, execute the following command:
+
 ```
 gh repo clone ovationgreen/scada-pc PC
 ```
