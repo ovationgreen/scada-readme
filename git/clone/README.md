@@ -65,10 +65,6 @@ After successfully cloning the repository, navigate to the `PC` folder and execu
 git submodule update --init
 ```
 
-## Contributing
-
-If you find that this documentation lacks important information or have suggestions for its improvement, please don't hesitate to contact the repository owner.
-
 ## Conclusion
 
 Congratulations! You have successfully cloned the Ovation Green SCADA source repository. You can now proceed with your work inside this repository.
