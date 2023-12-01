@@ -13,6 +13,7 @@ See the following sections for more details.
 3.	In the **To Do** section, **Development** field, click **Create branch**.
 ![create a branch_1](https://github.com/ovationgreen/scada-readme/assets/150123119/462b1c10-0260-4dcc-9e6e-26f98d0bc6c1)
 4.	On the **Create GitHub Branch** page, in the **Repository** field, select the repository to commit the changes to.
+
 _**Note:**_ 
 Repositories:
 •	_scada-pc_—for storing all source files.
