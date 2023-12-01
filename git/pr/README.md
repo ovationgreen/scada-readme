@@ -45,9 +45,11 @@ _**Note:**_ It should be the branch that is named on your Jira task page > **Det
 3.	On the top panel, click **Branch** and select **New branch…** from the drop-down menu. 
 ![Create a branch_desktop_3](https://github.com/ovationgreen/scada-readme/assets/150123119/50dfee2a-fec4-4e1e-a66a-33151066fab3)
 4.	In the **Create a branch** pop-up window, provide the needed information:
+   
 a.	In the **Name** field, provide the name for your branch. 
+
 b.	In the **Create branch based on…** section, select the original branch for your newly created one.
-5.	Click **Create branch**.
+6.	Click **Create branch**.
 	
 ![Create a branch_desktop_4](https://github.com/ovationgreen/scada-readme/assets/150123119/78d4c5af-84c6-40d3-ba9c-f62fbb9d8b7c)
 After that, you can publish your branch to a remote repository and start making changes to it.
