@@ -28,6 +28,7 @@ Follow the `SCADA-0000-Name-of-your-task` name format where 0000 is the number o
 7.	Click **Create branch**.
    
 ![create a branch_2](https://github.com/ovationgreen/scada-readme/assets/150123119/a64f3bdb-ec71-45a6-b208-fb2c6945df82)
+
 _**Note:**_ 
 Click **View branch in GitHub** to open the branch page.
 After you successfully create the branch, you will receive a corresponding notification and will be able to view the branch at the page of the related Jira task.
