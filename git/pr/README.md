@@ -189,7 +189,7 @@ a.	In the **Title** field, provide a title for the issue that grasps the main po
 
 b.	In the **Add a description** field, provide a link to the pull request that is associated with this issue and an explanation of the needed fixes. 
 
-5.	Click **Submit new issue**.
+4.	Click **Submit new issue**.
 
 _**Note:**_
 A developer is supposed to convert the pull request associated with an issue or issues to a draft pull request, fix all of the issues, and close them as fixes. 
