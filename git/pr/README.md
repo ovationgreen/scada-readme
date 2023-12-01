@@ -16,6 +16,7 @@ See the following sections for more details.
 
 _**Note:**_ 
 Repositories:
+
 •	_scada-pc_—for storing all source files.
 
 •	_scada-lib_—for storing additional libraries.
