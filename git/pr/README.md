@@ -18,6 +18,7 @@ _**Note:**_
 Repositories:
 •	_scada-pc_—for storing all source files.
 •	_scada-lib_—for storing additional libraries.
+
 5.	In the **Branch from** field, select the original branch for your new branch.
    
 _**Note:**_ It should be the branch that is named on your Jira task page > **Details** section > **Fix versions**. 
