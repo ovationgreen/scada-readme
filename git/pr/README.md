@@ -22,6 +22,7 @@ Repositories:
 _**Note:**_ It should be the branch that is named on your Jira task page > **Details** section > **Fix versions**. 
 ![Fix version](https://github.com/ovationgreen/scada-readme/assets/150123119/ab94aa4e-afbb-45a9-bd08-811e35efd6e7)
 7.	In the **Branch name** field, view a proposed name for your branch and change it if needed.
+
 _**Note:**_ 
 Follow the `SCADA-0000-Name-of-your-task` name format where 0000 is the number of your JIRA task and Name-of-your-task is its name.
 7.	Click **Create branch**.
