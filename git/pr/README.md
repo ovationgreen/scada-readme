@@ -10,20 +10,22 @@ See the following sections for more details.
 ## Create a branch for a pull request
 ### Create a branch in GitHub Web
 1.	On the page of the Jira task you are about to start working on, change the status to **In Progress**. 
-3.	In the **To Do** section, **Development** field, click **Create branch**.
+2.	In the **To Do** section, **Development** field, click **Create branch**.
 ![create a branch_1](https://github.com/ovationgreen/scada-readme/assets/150123119/462b1c10-0260-4dcc-9e6e-26f98d0bc6c1)
-4.	On the **Create GitHub Branch** page, in the **Repository** field, select the repository to commit the changes to.
+3.	On the **Create GitHub Branch** page, in the **Repository** field, select the repository to commit the changes to.
 
 _**Note:**_ 
 Repositories:
 •	_scada-pc_—for storing all source files.
+
 •	_scada-lib_—for storing additional libraries.
 
-5.	In the **Branch from** field, select the original branch for your new branch.
+4.	In the **Branch from** field, select the original branch for your new branch.
    
 _**Note:**_ It should be the branch that is named on your Jira task page > **Details** section > **Fix versions**. 
 ![Fix version](https://github.com/ovationgreen/scada-readme/assets/150123119/ab94aa4e-afbb-45a9-bd08-811e35efd6e7)
-7.	In the **Branch name** field, view a proposed name for your branch and change it if needed.
+
+5.	In the **Branch name** field, view a proposed name for your branch and change it if needed.
 
 _**Note:**_ 
 Follow the `SCADA-0000-Name-of-your-task` name format where 0000 is the number of your JIRA task and Name-of-your-task is its name.
