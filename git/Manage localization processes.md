@@ -193,9 +193,9 @@ You can localize Ovation Green dashboards manually and by using the Translate By
 13. Commit your changes.
 
 ## Use the Translate By Google tool
-[Normalize localization files in Translate By Google] (https://github.com/ovationgreen/scada-readme/blob/main/git/Manage%20localization%20processes.md#normalize-localization-files)
-[Localize text in Translate By Google] (https://github.com/ovationgreen/scada-readme/blob/main/git/Manage%20localization%20processes.md#localize-text-in-translate-by-google)
-[Localize dashboards in Translate By Google] (https://github.com/ovationgreen/scada-readme/blob/main/git/Manage%20localization%20processes.md#localize-ovation-green-dashboards-in-translate-by-google)
+[Normalize localization files in Translate By Google](https://github.com/ovationgreen/scada-readme/blob/main/git/Manage%20localization%20processes.md#normalize-localization-files)
+[Localize text in Translate By Google](https://github.com/ovationgreen/scada-readme/blob/main/git/Manage%20localization%20processes.md#localize-text-in-translate-by-google)
+[Localize dashboards in Translate By Google](https://github.com/ovationgreen/scada-readme/blob/main/git/Manage%20localization%20processes.md#localize-ovation-green-dashboards-in-translate-by-google)
 ### Track localization completion in Translate By Google 
 You may need to check whether there are any untranslated strings in any documents.  
 For that, use the Translate by Google tool: 
@@ -212,8 +212,8 @@ You’ll see a list of all available _po_ files for the selected language and th
 ## Commit localization updates
 There are several options for committing localization files updates: 
 - For a localization manager: 
-1. [Commit changes] (https://github.com/ovationgreen/scada-readme/blob/main/git/pr/README.md#create-a-commit-and-push-changes) to the branch you are working in.
+1. [Commit changes](https://github.com/ovationgreen/scada-readme/blob/main/git/pr/README.md#create-a-commit-and-push-changes) to the branch you are working in.
 2. Go to the branch of the next version, accept all the changes from the previous version, and repeat the process of updating localization files.  
-- Via [pull request] (https://github.com/ovationgreen/scada-readme/blob/main/git/pr/README.md#create-a-commit-and-push-changes). 
+- Via [pull request](https://github.com/ovationgreen/scada-readme/blob/main/git/pr/README.md#create-a-commit-and-push-changes). 
 
 
