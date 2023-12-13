@@ -1,14 +1,14 @@
 # Ovation Green
 Localization processes in Ovation Green are aimed at providing localized UI text for users from different countries. Follow the guidelines below to make sure that the localization is conductrd correstly and effectively. 
 ## General localization guidelines
-You need to update localization files separately for the old and new Ovation Green applications–web application and SCADA–and for different versions starting from 5.8.0. 
+You need to update localization files separately for the old and new Ovation Green applications – web application and SCADA – and for different versions starting from 5.8.0. 
 
 > [!NOTE]
 > Make sure to check out the corresponding branch (5.8.0, 5.8.1, and so on) before you make any changes. 
 
 When there is an update that relates to more than one version of Ovation Green, first, update the oldest version, create a commit and push changes for the following one, then, repeat these actions for the version that comes after, and so on until this update is in all of the versions. This way, you minimize conflicts and manual work. 
 
-Localization involves two types of files – _pot_ and _po_. The _pot_ files contain the original (English) text, and the _po_ files contain the localized text (currently, we fully localize to German (de) and Chinese (zh.) Usually, there are several _po_ files per a _pot_ file. 
+Localization involves two types of files – _pot_ and _po_. The _pot_ files contain the original (English) text, and the _po_ files contain the localized text (currently, we fully localize to German (_de_) and Chinese (_zh_.) Usually, there are several _po_ files per a _pot_ file. 
 
 > [!IMPORTANT]
 > It is best not to edit _pot_ files manually. 
@@ -91,7 +91,7 @@ There are several options for localizing Ovation Green files:
    
 ![localize text in Poedit](https://github.com/ovationgreen/scada-readme/assets/150123119/73a99e50-304e-470d-9827-d07ed6770158)
 > [!NOTE]
-> Switch the **Needs work** toggle to point out that the translation isn’t finished yet.
+> Turn on the **Needs work** toggle to point out that the translation isn’t finished yet.
 
 4. Save your changes.
 
@@ -99,7 +99,7 @@ There are several options for localizing Ovation Green files:
 There are several ways you can add a new localization language. Doing it via the Translate By Google tool is more efficient, but if you need to add a new language only for a specific file or set of files, use Poedit.
 
 ### Add a new localization language with Translate By Google 
-When you add a new localization language by using the Translate by Google tool, all _po_ files for a new localization language a created and named automatically.  
+When you add a new localization language by using the Translate by Google tool, all _po_ files for a new localization language are created and named automatically.  
 
 For that: 
 1. Go to the **PC** repository > **.libs** > **Node** > **TranslateByGoogle**. 
@@ -121,7 +121,7 @@ For that:
 2. Open the _pot_ file in Poedit.
 3. On the ribbon, click **File** > **New**.
    
-![add a new localization language with Poedit](https://github.com/ovationgreen/scada-readme/assets/150123119/80e0d620-87f4-42fa-93ab-db87ca76acf6)
+![add a new localization language with Poedit](https://github.com/ovationgreen/scada-readme/assets/150123119/684c112f-7467-426d-b95b-e17189ffec7c)
 
 5. In the **Translation Language** window, select the needed language from the **Language of the translation** drop-down list and click **OK**.
 6. Click **Update from pot file**.
