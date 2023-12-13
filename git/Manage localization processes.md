@@ -13,3 +13,4 @@ When there is an update that relates to more than one version of Ovation Green, 
 •	**PC** repository > java > server > resources > localization > po – for all server messages and status codes descriptions. 
 •	**PC** repository > web > web-app > i18n – for the web application.  
 •	**PC** repository > scada > src > i18n – for SCADA. 
+
