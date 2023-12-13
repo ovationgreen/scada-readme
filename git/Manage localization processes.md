@@ -1,7 +1,8 @@
 # Ovation Green
 Localization processes in Ovation Green are aimed at providing localized UI text for users from different countries. Follow the guidelines below to make sure that the localization is conductrd correstly and effectively. 
 ## General localization guidelines
-You need to update localization files separately for the old and new Ovation Green applications – web application and SCADA and for different versions starting from 5.8.0. 
+You need to update localization files separately for the old and new Ovation Green applications–web application and SCADA–and for different versions starting from 5.8.0. 
+
 _**Note:**_ 
 Make sure to check out the corresponding branch (5.8.0, 5.8.1, and so on) before you make any changes. 
 
@@ -10,7 +11,7 @@ When there is an update that relates to more than one version of Ovation Green, 
 ## View localization files
 1. Go to one of several localization files locations: 
 
-•	**PC** repository > java > server > resources > localization > po – for all server messages and status codes descriptions. 
-•	**PC** repository > web > web-app > i18n – for the web application.  
-•	**PC** repository > scada > src > i18n – for SCADA. 
+- **PC** repository > **java** > **server** > **resources** > **localization** > **po** – for all server messages and status codes descriptions.
+- **PC** repository > **web** > **web-app** > **i18n** – for the web application.
+- **PC** repository > **scada** > **src** > **i18n** – for SCADA. 
 
