@@ -38,17 +38,12 @@ This process differs for SCADA and web application localization files.
 
 0. _(Only for SCADA)_ Go to the **PC** repository > **web** > **scada** > **node modules** and delete the _.cache_ folder.  
 1. Open the location of the _pot_ file:  
-
-a. **PC** repository > **scada** > **src** > **i18n** for SCADA. 
-
-b. **PC** repository > **web** > **web-app** > **i18n** for web application.  
-
+- **PC** repository > **scada** > **src** > **i18n** for SCADA.
+- **PC** repository > **web** > **web-app** > **i18n** for web application.  
 2. Run the **cmd** terminal.  
-
 3. In the **cmd** terminal, run the command to get a modified _pot_ file: 
-
-a. **yarn build: locale-extract** for SCADA. 
-b. **npm build: i18n** for web application. 
+- **yarn build: locale-extract** for SCADA.
+- **npm build: i18n** for web application. 
 > [!NOTE]
 > This command checks the original _pot_ file, adds the localization strings that were added to the source files, and deletes the localization strings that were deleted from the source file since the last update. As a result, the _pot_ file is updated with all changes that were missing since the previous review.
 
@@ -119,15 +114,15 @@ For that:
 > [!NOTE]
 > Repeat these actions for every _pot_ file that you want to add a new language for and for every new language.
 
-1. Go to the **PC** repository > location of the _pot_ file that you want to add a new localization language for. 
-2. Open the _pot_ file in Poedit.  
+1. Go to the **PC** repository > location of the _pot_ file that you want to add a new localization language for.
+2. Open the _pot_ file in Poedit.
 3. On the ribbon, click **File** > **New**.  
 ![add a new localization language with Poedit](https://github.com/ovationgreen/scada-readme/assets/150123119/80e0d620-87f4-42fa-93ab-db87ca76acf6)
 
-4. In the **Translation Language** window, select the needed language from the **Language of the translation** drop-down list and click **OK**.  
-5. Click **Update from pot file**.  
+4. In the **Translation Language** window, select the needed language from the **Language of the translation** drop-down list and click **OK**.
+5. Click **Update from pot file**.
 6. In the **Open translation template** window, select the _pot_ file which you want to add a new localization language for.  
-   The new _po_ file opens automatically, and you can start translating the strings right away.  
+   The new _po_ file opens automatically, and you can start translating the strings right away.
 7. To save the new localization file, on the ribbon, click **File** > **Save as…**, select the file location, name the file according to the naming conventions (_de_ for German, _zh_ for Chinese, _el_ for Greek, and so on), and click **Save**.   
 
 ## Add a new language to Ovation Green
@@ -174,8 +169,22 @@ You can localize Ovation Green dashboards manually and by using the Translate By
 2. In the upper-right corner, click the user image to open the user account settings.  
 3. Click **Language** and select the language for localization.
 ![localize dashboards_1](https://github.com/ovationgreen/scada-readme/assets/150123119/c82ea1e5-9f2d-4400-acb1-cbfd61343e0d)
-5. Open the dashboard that you want to localize.  
-6. Right-click the item that you want to provide a localized name for and select **Edit** (in any language, it is the first option on the list).   
-7. Near the **Name** field, click **Language**.
+
+4. Open the dashboard that you want to localize.  
+5. Right-click the item that you want to provide a localized name for and select **Edit** (in any language, it is the first option on the list).   
+6. Near the **Name** field, click **Language**.
 ![localize dashboards_3](https://github.com/ovationgreen/scada-readme/assets/150123119/9456308d-843d-4e6e-85d0-5f2d1df4e0f0)
-9. j
+
+7. When the **Name** field empties, enter the localized name for the item there.
+8. Click **OK**.
+9. Repeat these actions for all the items that you need to localize.
+10. On the ribbon, click **Save** to save your changes.
+![localize dashboards_5](https://github.com/ovationgreen/scada-readme/assets/150123119/26fad50b-6593-4160-9f6d-97b8feebf37a)
+
+12. Commit your changes.
+
+## Use the Translate By Google tool
+- [Normalize localization files in Translate By Google] ()
+- Localize text in Translate By Google
+- Localize dashboards in Translate By Google
+- 
