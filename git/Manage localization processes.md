@@ -40,12 +40,12 @@ This process differs for SCADA and web application localization files.
 
 0. _(Only for SCADA)_ Go to the **PC** repository > **web** > **scada** > **node modules** and delete the _.cache_ folder.  
 1. Open the location of the _pot_ file:  
-- **PC** repository > **scada** > **src** > **i18n** for SCADA.
-- **PC** repository > **web** > **web-app** > **i18n** for web application.  
+- **PC** repository > **scada** for SCADA.
+- **PC** repository > **web** > **web-app** for web application.  
 2. Run the **cmd** terminal.  
 3. In the **cmd** terminal, run the command to get a modified _pot_ file: 
-- **yarn build: locale-extract** for SCADA.
-- **npm build: i18n** for web application. 
+- **yarn build:locale-extract** for SCADA.
+- **npm run build:i18n** for web application. 
 > [!NOTE]
 > This command checks the original _pot_ file, adds the localization strings that were added to the source files, and deletes the localization strings that were deleted from the source file since the last update. As a result, the _pot_ file is updated with all changes that were missing since the previous review.
 
