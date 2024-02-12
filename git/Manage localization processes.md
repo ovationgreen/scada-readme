@@ -40,7 +40,7 @@ This process differs for SCADA and web application localization files.
 
 0. _(Only for SCADA)_ Go to the **PC** repository > **web** > **scada** > **node modules** and delete the _.cache_ folder.  
 1. Open the location of the _pot_ file:  
-- **PC** repository > **scada** for SCADA.
+- **PC** repository > **web** > **scada** for SCADA.
 - **PC** repository > **web** > **web-app** for web application.  
 2. Run the **cmd** terminal.  
 3. In the **cmd** terminal, run the command to get a modified _pot_ file: 
