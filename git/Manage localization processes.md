@@ -56,12 +56,15 @@ After you generate an updated _pot_ file, you need to normalize it. Do it before
 
 To normalize a _pot_ file means to remove all unnecessary details such as line numbers, to sort all the strings, and to ensure that separate strings are provided for each locale form.  
 For that, use the Translate by Google tool: 
-1. Go to the **PC** repository > **.libs** > **Node** > **TranslateByGoogle**. 
-2. Run the **cmd** terminal.  
-3. Run the **yarn install** command. 
-4. _(Only when you use the tool for the first time)_ Run the **yarn build** command to build the tool.  
-5. Run the **node .** command to start the tool.  
-6. When the menu opens, use the arrow keys to navigate to the **Maintenance: update, sort, trim** command and press **Enter** to run it.  
+1. Go to the **PC** repository. 
+2. Run the **cmd** terminal.
+3. (Only when you use the tool for the first time) Run the **git clone https://github.com/ovationgreen/scada-translate.git** command.
+4. Go to the **PC** repository > **scada-translate**.
+5. Run the cmd terminal and run **git pull** command.
+6. Run the **yarn install** command. 
+7. _(Only when you use the tool for the first time)_ Run the **yarn build** command to build the tool.  
+8. Run the **node .** command to start the tool.  
+9. When the menu opens, use the arrow keys to navigate to the **Maintenance: update, sort, trim** command and press **Enter** to run it.  
 > [!NOTE]
 > When the tool finishes the maintenance, it provides a short report on findings and actions performed. The **TRIMMED** label near a file’s name means that there was something deleted in the file, and the **UPDATED** label means that something was added there in correspondence to the new _pot_ file.  
 
