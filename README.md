@@ -9,7 +9,7 @@ This documentation provides detailed, step-by-step guidance on the differnt proc
 4. [Commits](https://github.com/ovationgreen/scada-readme/blob/main/git/commit/README.md)
 5. [Pull requests](https://github.com/ovationgreen/scada-readme/blob/main/git/pr/README.md)
 6. [Localization](https://github.com/ovationgreen/scada-readme/blob/main/git/Manage%20localization%20processes.md)
-7. [Build versioning](https://github.com/ovationgreen/scada-readme/blob/main/git/Versioning.md)
+7. [Build versioning](https://github.com/ovationgreen/scada-readme/blob/main/git/versioning/BuildVersioning.md)
 
 # Contributing
 
