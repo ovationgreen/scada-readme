@@ -26,7 +26,11 @@ Type of each build is defined in file **PC** repository > **bin** > **VersionInf
 > - **OvationGreenSCADA-Patch_6.0.3.exe** - SCADA update/patch package. This one could be installed **ONLY** over previous full installation package.
 > - **OvationGreenSCADA-DeskPatch_6.0.3.exe** - SCADA update/patch package containing Desk with all dependencies. This one could be installed **ONLY** over previous full installation package.
 
-> [!NOTE]
+On customer side there could be installed only installation packages from SharePoint: 
+- [Ovation Green SCADA](https://emerson.sharepoint.com/:f:/r/sites/OvationGreenSCADA/Ovation%20Green%20SCADA%20binaries/Ovation%20Green%20SCADA?csf=1&web=1&e=O8LvWY)
+
+
+> [!IMPORTANT]
 > Oficially procedure of installation looks like following:
 > - Install last release package: **OvationGreenSCADA-Setup_6.0.0**
 > - Install last **Release Update** (**OvationGreenSCADA-Setup_6.0.2**) or **Hotfix** (**OvationGreenSCADA-Setup_6.0.2_Hotfix2**) over previous release package
