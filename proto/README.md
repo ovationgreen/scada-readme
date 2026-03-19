@@ -89,7 +89,6 @@ The TypeScript compiler (`tsc`) is used to build TypeScript-based tooling and sc
    tsc --version
    # Expected output: Version 5.x.x
    ```
-
 ### grpc_tools (Python gRPC tools)
 
 `grpcio-tools` provides the Python plugin for `protoc` to generate gRPC stubs from `.proto` files.
@@ -100,12 +99,36 @@ https://grpc.io/docs/languages/python/quickstart/
 1. Install the package using pip:
    ```bash
    python -m pip install --upgrade pip
+   ```
+   ```bash
    python -m pip install virtualenv
+   ```
+   ```bash
    python -m pip install grpcio
+   ```
+   ```bash
    python -m pip install grpcio-tools
    ```
 2. Verify the installation:
    ```bash
    python -m grpc_tools.protoc --version
    # Expected output: libprotoc 31.x (or later)
+   ```
+
+### ts-proto
+
+`ts-proto` is a `protoc` plugin that generates idiomatic TypeScript code from `.proto` files.
+
+1. Install `ts-proto` using npm:
+   ```bash
+   npm install -g ts-proto
+   ```
+2. Verify the installation:
+   ```bash
+   npm list -g ts-proto --depth=0
+   # Expected output includes: ts-proto@x.y.z
+   ```
+3. (Optional) Verify that the plugin binary is discoverable on your `PATH`:
+   ```powershell
+   where protoc-gen-ts_proto
    ```
