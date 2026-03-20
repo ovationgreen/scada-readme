@@ -109,6 +109,12 @@ https://grpc.io/docs/languages/python/quickstart/
    ```bash
    python -m pip install grpcio-tools
    ```
+   ```bash
+   python -m pip install protobuf
+   ```
+   ```bash
+   python -m pip install types-protobuf
+   ```
 2. Verify the installation:
    ```bash
    python -m grpc_tools.protoc --version
@@ -131,4 +137,32 @@ https://grpc.io/docs/languages/python/quickstart/
 3. (Optional) Verify that the plugin binary is discoverable on your `PATH`:
    ```powershell
    where protoc-gen-ts_proto
+   ```
+
+### mypy (latest)
+
+`mypy` is used for static type checking of Python code in the proto workflow.
+
+1. Install `mypy` using pip:
+   ```bash
+   python -m pip install --upgrade mypy
+   ```
+2. Verify the installation:
+   ```bash
+   mypy --version
+   # Expected output: mypy x.y.z
+   ```
+
+### Ruff (latest)
+
+`ruff` is used for fast Python linting and formatting checks in the proto workflow.
+
+1. Install `ruff` using pip:
+   ```bash
+   python -m pip install --upgrade ruff
+   ```
+2. Verify the installation:
+   ```bash
+   ruff --version
+   # Expected output: ruff x.y.z
    ```
