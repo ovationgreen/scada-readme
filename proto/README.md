@@ -115,6 +115,12 @@ https://grpc.io/docs/languages/python/quickstart/
    ```bash
    python -m pip install types-protobuf
    ```
+   ```bash
+   python -m pip install types-grpcio
+   ```
+   ```bash
+   python -m pip install pydantic
+   ```
 2. Verify the installation:
    ```bash
    python -m grpc_tools.protoc --version
