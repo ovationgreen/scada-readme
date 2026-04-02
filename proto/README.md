@@ -18,7 +18,7 @@ Java 17 or higher is required. It is recommended to install **Java 26** for the 
 4. Add `$JAVA_HOME/bin` to your system `PATH`.
 5. Verify the installation:
    ```bash
-   java --version
+   java -version
    # Expected output: java 26 (or higher, minimum 17)
    ```
 
@@ -56,7 +56,8 @@ Python 3.x is required by some tooling and scripts used in the proto workflow.
 1. Download Python 3.x from the official website: https://www.python.org/downloads/
 2. Run the installer for your operating system.
 3. On Windows, enable **Add Python to PATH** during installation.
-4. Verify the installation:
+4. On Windows, if needed, add `%APPDATA%\Python\Python314\Scripts` (or your Python user Scripts directory) to your `PATH`.
+5. Verify the installation:
    ```bash
    python --version
    # Expected output: Python 3.x.x
@@ -171,4 +172,22 @@ https://grpc.io/docs/languages/python/quickstart/
    ```bash
    ruff --version
    # Expected output: ruff x.y.z
+   ```
+
+### Poetry (latest)
+
+`poetry` is used for Python dependency and virtual environment management.
+
+1. Install Poetry using the official installer:
+   ```bash
+   (Invoke-WebRequest -Uri https://install.python-poetry.org -UseBasicParsing).Content | python -
+   ```
+2. Alternative (manual) installation using pip:
+   ```bash
+   python -m pip install --user --upgrade poetry
+   ```
+3. Verify the installation:
+   ```bash
+   poetry --version
+   # Expected output: Poetry (version x.y.z)
    ```
